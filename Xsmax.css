@@ -1,0 +1,86 @@
+/* styles.css */
+
+/* Apply blue background to all elements */
+* {
+    background-color: rgb(244, 244, 250);
+}
+
+/* Global styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Styling for the main container */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fcfcfc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Styling for the main heading */
+h1 {
+    font-size: 28px;
+    color: #0d0c0c;
+    margin-bottom: 10px;
+}
+
+/* Styling for paragraphs */
+p {
+    font-size: 16px;
+    color: #070707;
+    margin-bottom: 20px;
+}
+
+/* Styling for the form */
+form {
+    margin-top: 20px;
+}
+
+/* Styling for labels */
+label {
+    font-size: 16px;
+    color: #333333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Styling for email input */
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Styling for submit button */
+button[type="submit"] {
+    background-color: #dddddd;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Styling for submit button on hover */
+button[type="submit"]:hover {
+    background-color: #adb7c2;
+}
+
+/* Styling for hidden messages */
+.hidden {
+    display: none;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333333;
+}
+
